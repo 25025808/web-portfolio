@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhado Vhusafheli Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#languages">Languages</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="home">
+        <div class="profile-wrapper">
+            <div class="profile-container" onclick="this.classList.toggle('flipped')">
+                <!-- FRONT SIDE -->
+                <div class="profile-front">
+                    <img src="images/WhatsApp Image 2026-02-19 at 16.33.41 (1) - Copy.jpeg" alt="Profile Image">
+                    <div class="click-text">Click me</div>
+                    <div class="social-icons">
+                        <span class="social-icon whatsapp" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">📱</span>
+                        <span class="social-icon email" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">✉️</span>
+                        <span class="social-icon gmail" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">📧</span>
+                    </div>
+                </div>
+                <!-- BACK SIDE -->
+                <div class="profile-back">
+                    <div class="welcome-text">
+                        <h3>HI ,I'm <span class="name">Makhado Vhusafheli</span></h3>
+                        <p>Welcome to my portfolio, where we bring ideas to life</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Makhado Vhusafheli</h1>
+        <p>Aspiring Software engineer</p>
+
+        <!-- QUICK LINKS -->
+        <div class="quick-links">
+            <span data-target="about">About</span>
+            <span data-target="education">Education</span>
+            <span data-target="languages">Languages</span>
+            <span data-target="skills">Skills</span>
+            <span data-target="projects">Projects</span>
+            <span data-target="contact">Contact</span>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <!-- LEFT SIDE - IMAGE WITH FADE -->
+            <div class="about-image-wrapper">
+                <img src="images/WhatsApp Image 2026-04-16 at 13.57.41.jpeg" alt="About Image">
+            </div>
+
+            <!-- RIGHT SIDE - THREE BOXES -->
+            <div class="about-boxes">
+                <div class="info-box" data-target="about-me">
+                    <h3>About Me</h3>
+                </div>
+
+                <div class="info-box" data-target="education">
+                    <h3>Education</h3>
+                </div>
+
+                <div class="info-box" data-target="background">
+                    <h3>Background</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME DETAILS -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+
+I am a passionate second-year student with a strong aspiration to become a software engineer. I am deeply interested in technology and enjoy learning how software systems are built, how they function, and how they can be improved to solve real-world problems.
+
+As I continue my studies, I am developing my skills in programming, problem-solving, and logical thinking. I am committed to growing both academically and practically, with the goal of building a strong foundation in software development.
+
+My ambition is to become a skilled software engineer who creates meaningful and efficient solutions that make a positive impact.
+
+        </p>
+    </section>
+
+    <!-- EDUCATION DETAILS -->
+    
+        <h2>Education</h2>
+    
+
+        <h3>My Education Journey</h3>
+
+        <!-- PRIMARY SCHOOL -->
+        <div class="education-subsection">
+            <h4>Primary School</h4>
+            <p><strong>Name of School:</strong> Tshisahulu primary school</p>
+            <p>
+                My time in primary school introduced me to basic problem-solving and logical thinking.
+                It sparked my curiosity about how things work, which later grew into my interest in computer science.
+            </p>
+        </div>
+
+        <!-- SECONDARY SCHOOL -->
+        <div class="education-subsection">
+            <h4>Secondary School</h4>
+            <p><strong>Name of School:</strong> Thohoyandou secondary school</p>
+            <p>
+                In secondary school, I developed stronger analytical skills and was introduced to subjects like mathematics
+                and information technology. This experience strengthened my passion for technology and inspired me to pursue computer science.
+            </p>
+        </div>
+
+        <!-- TERTIARY EDUCATION -->
+        <div class="education-subsection">
+            <h4>Tertiary Education</h4>
+            <p><strong>Name of Institution:</strong> University of Venda</p>
+            <p>
+                My tertiary education is shaping my understanding of programming, algorithms, and systems design.
+                It is preparing me to become a skilled computer scientist capable of solving real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <!-- BACKGROUND DETAILS -->
+    <section id="background">
+        <h2>Background</h2>
+        <p>
+        “My journey begins in a financially disadvantaged environment where resources were limited, but determination was not. Those challenges taught me to think creatively, adapt quickly, and make meaningful progress with whatever I had at my disposal. Rather than seeing limitations, I learned to see opportunities for growth and innovation.
+
+My background does not define the limits of who I am—it shapes the strength of how I move forward. I define my future through discipline, focus, and a deep commitment to growth, and I am fully dedicated to building it step by step.
+
+Through my education and experiences, I have developed strong problem-solving abilities and a growing passion for technology and innovation, especially in the field of computer science, where I aim to create solutions that make a real impact.”
+
+        </p>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section id="languages">
+        <h2>Languages</h2>
+        <div class="languages">
+        </div>
+        <div class="languages"></div>
+
+            <p>HTML</p>
+            <div class="languages"></div>
+
+            <p>CSS</p>
+         <div class="languages"></div>
+            <p>JavaScript</p>
+            <div class="languages"></div>
+            <p>C++</p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skill">
+            <h3>Programming Skills</h3>
+            <p>CSS, C++, JavaScript help me turn ideas into working software.</p>
+        </div>
+
+        <div class="skill">
+            <h3>Problem-Solving</h3>
+            <p>I break complex problems into smaller parts and find efficient solutions.</p>
+        </div>
+
+        <div class="skill">
+            <h3>Data Structures & Algorithms</h3>
+            <p>I understand how data is organized to write efficient programs.</p>
+        </div>
+
+        <div class="skill">
+            <h3>Logical Thinking</h3>
+            <p>I use step-by-step reasoning when building or debugging systems.</p>
+        </div>
+
+        <div class="skill">
+            <h3>Debugging & Testing</h3>
+            <p>I carefully find and fix errors with attention to detail.</p>
+        </div>
+
+        <div class="skill">
+            <h3>Communication Skills</h3>
+            <p>I clearly explain ideas in teamwork and presentations.</p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+    </section>
+    <div class="projects-grid">
+    <div class="project-card">
+        <h3>Interface Design System</h3>
+        <p>A modern responsive interface focused on usability and clean design using HTML and CSS.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Personal Web Portfolio</h3>
+        <p>A responsive portfolio website with smooth navigation and interactive features.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>To-Do List Application</h3>
+        <p>A dynamic task management app built with JavaScript for real-time interaction.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Student Database System</h3>
+        <p>A system for storing and managing student data using structured programming concepts.</p>
+    </div>
+</div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>gmail: vhusafhelimakhado4@gmail.com</p>
+        <p>Whatsapp: 0794683494</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/makhado-vhusafheli-9b1b4a1b2/" target="_blank">Makhado Vhusafheli</a></p>
+        <p>GitHub: <a href="https://github.com/makhado-vhusafheli" target="_blank">Makhado Vhusafheli</a></p>
+       </section>
+
+    <script src="script.js"></script>
